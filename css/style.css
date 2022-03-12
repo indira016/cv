@@ -153,7 +153,6 @@ body {
 .languages {
   padding: 0px;
   margin-bottom: 35px;
-  /*text-align: center;*/
 }
 .languages ul {
   padding: 0;
@@ -174,20 +173,37 @@ body {
 .languages li img {
   padding: 15px;
 }
+
 .education {
-  margin-bottom: 30px;
-  background: var(--accent);
-  color: var(--pure-white);
+  margin-bottom: 2em;
+  background-color: var(--accent);
+  color: var(--accent);
   text-align: center;
 }
-.education-logo {
-  font-weight: 250px;
-  height: 260px;
+
+.education-title {
+  color: var(--pure-white);
 }
-.wrapper {
+.education ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   display: grid;
-  grid-template-columns: repeat(3, 380px);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
+.education li {
+  border-radius: 10px;
+  background-color: var(--pure-white);
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.education img {
+  width: 100%;
+  height: 290px;
+  /*object-fit: cover;*/
+}
+
 .footer p {
   text-align: center;
 }
