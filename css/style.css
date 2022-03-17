@@ -205,7 +205,7 @@ body {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .container {
     max-width: 320px;
     padding: 0 5px;
@@ -236,9 +236,9 @@ body {
   }
   .languages ul {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
+
   .education ul {
     display: flex;
     flex-direction: column;
@@ -248,5 +248,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .languages ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .languages li {
+    width: 48%;
   }
 }
