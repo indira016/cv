@@ -230,15 +230,13 @@ body {
     justify-content: flex-end;
   }
   .languages ul {
-<<<<<<< HEAD
     padding: 0;
   }
   .languages li {
     padding: 0;
-=======
+
     display: flex;
     align-items: center;
->>>>>>> main
   }
 
   .education ul {
@@ -252,8 +250,8 @@ body {
     justify-content: center;
   }
 }
+
 @media (max-width: 768px) {
-<<<<<<< HEAD
   .intro-inner {
     display: flex;
     gap: 10px;
@@ -261,8 +259,6 @@ body {
   .intro-left {
     width: 50%;
   }
-=======
->>>>>>> main
   .languages ul {
     display: flex;
     flex-wrap: wrap;
@@ -271,13 +267,7 @@ body {
   .languages li {
     width: 48%;
   }
-<<<<<<< HEAD
-  education {
-    justify-content: center;
-  }
   .education ul {
     grid-template-columns: repeat(2, 1fr);
   }
-=======
->>>>>>> main
 }
