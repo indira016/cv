@@ -232,12 +232,6 @@ body {
   .languages ul {
     padding: 0;
   }
-  .languages li {
-    padding: 0;
-
-    display: flex;
-    align-items: center;
-  }
 
   .education ul {
     display: flex;
